@@ -1,0 +1,14 @@
+@import 'partials/setup';
+@import 'partials/variables';
+
+h1 {
+	font-size: 35px;
+	color: $Pink;
+}
+
+p {
+	color: $Grey;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 800;
+}
