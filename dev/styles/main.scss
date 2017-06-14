@@ -1,9 +1,19 @@
 @import 'partials/setup';
 @import 'partials/variables';
+@import 'partials/nav';
+
+body {
+	background-color: rgb(26, 3, 41);
+}
 
 h1 {
-	font-size: 35px;
-	color: $Pink;
+	font-size: 20px;
+	margin: 0;
+	color: white;
+	text-transform: uppercase;
+	.nameSplit {
+		color: $Pink;
+	}
 }
 
 p {
@@ -11,4 +21,19 @@ p {
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: 800;
+}
+
+.wrapper {
+	width: 1140px; //measured from psd
+	background-color: lightgrey;
+	margin: 0 auto;
+}
+
+.detailsContainer {
+	width: 34%;
+}
+
+.featureContainer {
+	width: 66%;
+	background-color: lime;
 }
