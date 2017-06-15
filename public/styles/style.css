@@ -233,7 +233,18 @@ a {
   padding: 5%;
   width: 100%;
   min-height: 772px;
-  background-color: lavender; }
+  background-color: pink; }
+
+ul {
+  color: white; }
+
+li {
+  color: white;
+  line-height: 27px; }
+
+.devicon {
+  font-size: 110px;
+  color: white; }
 
 body {
   background-color: #1a0329; }
@@ -260,13 +271,16 @@ p {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: 100;
-  padding-top: 2%; }
+  padding: 4%; }
 
 .wrapper {
   width: 1140px;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.container {
+  width: 100%;
+  padding: 4% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -282,17 +296,17 @@ p {
           justify-content: center; }
 
 .section {
-  padding-top: 7%; }
+  padding: 7% 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .home {
   height: 100vh;
   background-image: url(../../images/flippedtwin.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-
-.devicon {
-  font-size: 100px;
-  color: white; }
 
 footer {
   color: white; }
