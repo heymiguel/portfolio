@@ -131,8 +131,28 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+header {
+  height: 76px;
+  width: 100%;
+  background-color: #241941;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed; }
+
 .nav {
   width: 100%;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   display: -webkit-box;
@@ -149,10 +169,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.navHalf {
+.navLeft {
   width: 50%; }
 
 .navRight {
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,7 +189,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
           justify-content: center; }
 
 .navLinks {
-  width: 75%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,16 +200,23 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .navLinks li {
-    list-style-type: none; }
-  .navLinks a {
-    text-decoration: none; }
+    list-style-type: none;
+    margin-right: 5px; }
+
+a {
+  color: white;
+  text-decoration: none; }
 
 .social {
-  width: 25%;
+  width: 10%;
   color: white; }
+  .social .fa {
+    font-size: 20px;
+    margin-right: 1%; }
 
 body {
   background-color: #1a0329; }
@@ -209,8 +237,26 @@ p {
 
 .wrapper {
   width: 1140px;
-  background-color: lightgrey;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.home {
+  height: 100vh;
+  background-image: url(../../images/flippedtwin.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .detailsContainer {
   width: 34%; }

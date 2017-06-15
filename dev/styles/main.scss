@@ -1,6 +1,7 @@
 @import 'partials/setup';
 @import 'partials/variables';
 @import 'partials/nav';
+@import 'partials/about';
 
 body {
 	background-color: rgb(26, 3, 41);
@@ -25,8 +26,19 @@ p {
 
 .wrapper {
 	width: 1140px; //measured from psd
-	background-color: lightgrey;
+	// background-color: lightgrey;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.home {
+	height: 100vh;
+	background-image: url(../../images/flippedtwin.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .detailsContainer {
