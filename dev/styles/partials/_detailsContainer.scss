@@ -5,14 +5,30 @@
 }
 
 .detailsBox {
-	// background-color: orange;
 	margin: 0;
 }
 
-.detailsTitle {
-
+.aboutDetails {
+	padding: 8% 6%;
 }
 
-.details {
+.detailsContact {
+	padding-top: 5%;
+	padding-left: 6%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
 
+.contactImage {
+	width: 20%;
+}
+
+.contactTitle {
+	width: 80%;
+	position: relative;
+}
+
+.contactText p {
+	padding: 0;
 }

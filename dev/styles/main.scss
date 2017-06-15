@@ -4,6 +4,7 @@
 @import 'partials/detailsContainer';
 @import 'partials/featureContainer';
 @import 'partials/skills';
+@import 'partials/contactForm';
 
 body {
 	background-color: rgb(26, 3, 41);
@@ -13,11 +14,11 @@ h1 {
 	color: $PrimaryColour;
 	// margin: 0;
 	font-size: 20px;
-	text-transform: uppercase;
-	
-	.nameSplit {
-		color: #EC116E;
-	}
+	text-transform: uppercase;	
+}
+
+.nameSplit {
+	color: #EC116E;
 }
 
 h2 {
@@ -30,7 +31,6 @@ h2 {
 	padding: 6%;
 	position: relative;
 	z-index: 1;
-	// background-color: red;
 }
 
 h2:after {
@@ -43,20 +43,33 @@ h2:after {
   top: 100%;
 }
 
+h3 {
+	color: $PrimaryColour;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+h3:after {
+	content: '';
+	background-color: $SecondaryColour;
+	width: 30%;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 100%;
+}
+
 p {
 	color: $PrimaryColour;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
-	padding: 8% 6%;
-	// background-color: black;
 }
 
 .wrapper {
 	width: 1140px; //measured from psd
 	margin: 0 auto;
-	// background-color: lime;
 }
 
 .container {
@@ -66,12 +79,10 @@ p {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	// background-color: yellow;
 }
 
 .section {
 	padding: 2% 0;
-	// background-image: url(../../images/keyboard.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -87,4 +98,13 @@ p {
 
 footer {
 	color: $PrimaryColour;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	padding: 2% 0;
 }

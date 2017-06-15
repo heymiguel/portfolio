@@ -1,0 +1,42 @@
+
+
+.contactForm {
+	width: 100%;
+}
+
+.innerForm {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.formInput {
+	width: 100%;
+	border-bottom: 2px solid #e63950;
+}
+
+input, textarea {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #6b6969;
+	border: none;
+	padding: 1%;
+	margin-top: 4%;
+}
+
+textarea {
+	padding-bottom: 20%;
+}
+
+.contactLeft {
+	padding-bottom: 22%;
+}
+
+.formButton {
+	background-color: transparent;
+  border: 2px solid #e63950;
+  margin: 4% 0;
+  padding: 2% 5%;
+}
