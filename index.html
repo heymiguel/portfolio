@@ -5,12 +5,11 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800|Roboto:100,300" rel="stylesheet">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
 	<link rel="stylesheet" type="text/css" href="./public/styles/style.css">
 </head>
 
 <body>
-	<section class="home section" id="home">
+	<section class="home" id="home">
 		<header>
 			<div class="wrapper">
 				<nav class="nav">
@@ -22,12 +21,13 @@
 							<li><a href="#home">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#skills">Skills</a></li>
-							<li><a href="#projects">Projects</a></li>
+							<li><a href="#projects">Projects</a></li> 
+							<!-- <li><a href="#projects" onclick="$('[#section-4]').animatescroll({scrollSpeed:3000,easing:'easeOutElastic});">Projects</a></li> -->
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 						<div class="social">
-							<a href="https://twitter.com/LOCnCode"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://twitter.com/LOCnCode" target="blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/laurie-o-connor-487057113/" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 						</div> <!-- social ends -->
 					</div> <!-- nav-half ends -->
 				</nav> 
@@ -38,42 +38,69 @@
 		<div class="wrapper">
 			<div class="detailsContainer">
 				<div class="detailsBox">
+				<div class="flurry"></div>
 					<h2 class="detailsTitle">About Section</h2>
-					<p class="details">details</p>
+					<p class="details">The best part about working in a team was having someone to work through problems and rubber duck with.  I want to live in a world where puppies are plentiful and the coffee is free.  Before I was a Dev, I was a Corporate Trainer and it made me good at looking at problems from someone else’s perspective.  When I’m not coding, I love getting out and exploring greenspaces, taking in the latest blockbuster, and planning my next great adventure you can find me at the rink honing my roller skating skills and searching the city for the next great cup of joe.  Now that I’m done bootcamp, I’m excited to begin the Javascript30 challenge and continue building with React.  I’m also excited to learn about Node, Web Accessibility, and Wordpress. </p>
 				</div> <!-- detailsBox ends -->
 			</div> <!-- detailsContainer ends -->
 			<div class="featureContainer">
 				<div class="featureBox aboutFeature">
-					<img src="images/headshot2.jpg" alt="">
+					<img class="headshot" src="images/headshot2.jpg" alt="Laurie's headshot.">
 				</div> <!-- featureBox ends -->
 			</div> <!-- featureContainer ends -->
 		</div> <!-- wrapper ends -->	
 	</section> <!-- About section ends -->
 	<section class="skills section" id="skills">
 		<div class="wrapper">
-			<h2>Skills</h2>
-			<div class="skillsContainer">
+			<div class="detailsContainer">
+				<div class="detailsBox">
+					<h2>Skills</h2>
+					<p class="details">
+						<ul>							
+							<li>Using HTML5 & CSS3 to create user friendly webpages</li>
+							<li>Responsive Design</li>
+							<li>JavaScript fundamentals, jQuery</li>
+							<li>React</li>
+							<li>Firebase</li>
+							<li>Workflow automation with Gulp</li>
+							<li>Sass/Scss</li>
+							<li>Sublime Text</li>
+							<li>Website accessibility</li>
+							<li>Converting professional PDF designs to HTML5/CSS3</li>
+							<li>Paired programming & working in teams</li>
+							<li>Creation of reusable code</li>
+							<li>Collaboration with other team members</li>
+							<li>Browser testing of all major browsers</li>
+							<li>Familiarity with Adobe Assets</li>
+							<li>Version control and open-sourcing code using Git and Github</li>
+							<li>DOM manipulation via JSON-based API requests using AJAX</li>
+						</ul>						
+					</p>
+				</div> <!-- detailsBox ends -->
+			</div> <!-- detailsContainer ends -->
+			<div class="featureContainer">
 				<div class="skillsRow">
-					<i class="devicon-gulp-plain"></i>
-					<i class="devicon-sass-original"></i>
-					<i class="devicon-html5-plain"></i>
+					<i class="devicon devicon-gulp-plain"></i>
+					<i class="devicon devicon-sass-original"></i>
+					<i class="devicon devicon-html5-plain"></i>
 				</div> <!-- skillsRow ends -->
 				<div class="skillsRow">
-					<i class="devicon-css3-plain-wordmark"></i>
-					<i class="devicon-jquery-plain-wordmark"></i>
-					<i class="devicon-javascript-plain"></i>
+					<i class="devicon devicon-css3-plain-wordmark"></i>
+					<i class="devicon devicon-jquery-plain-wordmark"></i>
+					<i class="devicon devicon-javascript-plain"></i>
 				</div> <!-- skillsRow ends -->
 				<div class="skillsRow">
-					<i class="devicon-react-original-wordmark"></i>
-					<i class="devicon-github-plain-wordmark"></i>
-					<i class="devicon-git-plain-wordmark"></i>
+					<i class="devicon devicon-react-original-wordmark"></i>
+					<i class="devicon devicon-github-plain-wordmark"></i>
+					<i class="devicon devicon-git-plain-wordmark"></i>
 				</div> <!-- skillsRow ends -->
-			</div> <!-- skillsContainer ends -->
+			</div> <!-- featureContainer ends -->
 		</div> <!-- wrapper ends -->
 	</section> <!-- Skills section ends -->
-	<section class="projects section" id="projects">
+	<section class="projects section" id="projects"> 
 		<div class="wrapper">
 			<div class="detailsContainer">
+			<div class="flurry"></div>
 				<div class="detailsBox">
 					<h2 class="detailsTitle">Projects</h2>
 				</div> <!-- detailsBox ends -->
@@ -88,6 +115,7 @@
 	<section class="contact section" id="contact">
 		<div class="wrapper">
 			<div class="detailsContainer">
+			<div class="flurry"></div>
 				<div class="detailsBox">
 					<h2>Contact</h2>
 				</div> <!-- detailsBox ends -->
@@ -105,8 +133,11 @@
 
 		</div> <!-- wrapper ends -->
 	</footer>
+
 	
 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="animatescroll.js"></script>
 	<script src="public/scripts/main.js"></script>
 </body>
 </html>
