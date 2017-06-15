@@ -1,13 +1,22 @@
 
 .featureContainer {
 	width: 66%;
-	
+}
+
+.feature {
+	width: 75%;
 }
 
 .featureBox {
-	margin: 0 auto;
+	margin: auto;
 	padding: 5%;
+	// width: 100%;
+	// min-height: 772px;
+	background-color: $PrimaryColour;
+
+}
+
+
+.feature img {
 	width: 100%;
-	min-height: 772px;
-	background-color: pink;
 }

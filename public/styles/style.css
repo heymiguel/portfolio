@@ -134,7 +134,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 header {
   height: 76px;
   width: 100%;
-  background-color: #241941;
+  background-color: #1a0329;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: fixed; }
+  position: fixed;
+  z-index: 5; }
 
 .nav {
   width: 100%;
@@ -189,7 +190,7 @@ header {
           justify-content: center; }
 
 .navLinks {
-  width: 90%;
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,45 +206,66 @@ header {
           justify-content: space-between; }
   .navLinks li {
     list-style-type: none;
-    margin-right: 0 7px; }
+    margin-right: 0 px; }
 
 a {
   color: white;
   text-decoration: none; }
 
 .social {
-  width: 10%;
-  color: white; }
+  width: 15%;
+  color: white;
+  margin-left: 5px; }
 
 .fa {
   font-size: 20px;
-  margin: 0 1%; }
+  margin: 0 5px; }
 
 .detailsContainer {
   width: 34%; }
 
-.detailsBox {
-  min-height: 772px; }
-
 .featureContainer {
   width: 66%; }
 
+.feature {
+  width: 75%; }
+
 .featureBox {
-  margin: 0 auto;
+  margin: auto;
   padding: 5%;
-  width: 100%;
-  min-height: 772px;
-  background-color: pink; }
+  background-color: white; }
+
+.feature img {
+  width: 100%; }
+
+.skillsRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: lime; }
+
+.topRow {
+  padding: 0 0 4% 0; }
+
+.row {
+  padding: 4% 0; }
 
 ul {
   color: white; }
 
 li {
   color: white;
-  line-height: 27px; }
+  line-height: 22px; }
 
 .devicon {
-  font-size: 110px;
+  margin: 2% 5%;
+  font-size: 90px;
   color: white; }
 
 body {
@@ -263,8 +285,18 @@ h2 {
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
-  padding: 5%;
-  background-color: yellow; }
+  padding: 6%;
+  position: relative;
+  z-index: 1; }
+
+h2:after {
+  content: '';
+  background-color: #e63950;
+  width: 22%;
+  height: 2px;
+  position: absolute;
+  left: 24px;
+  top: 100%; }
 
 p {
   color: white;
@@ -272,7 +304,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 100;
-  padding: 4%; }
+  padding: 8% 6%; }
 
 .wrapper {
   width: 1140px;
@@ -296,7 +328,7 @@ p {
           justify-content: center; }
 
 .section {
-  padding: 7% 0;
+  padding: 2% 0;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }

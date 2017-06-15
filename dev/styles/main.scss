@@ -27,8 +27,19 @@ h2 {
 	font-size: 30px;
 	font-weight: 800;
 	text-transform: uppercase;
-	padding: 5%;
-	background-color: yellow;
+	padding: 6%;
+	position: relative;
+	z-index: 1;
+}
+
+h2:after {
+	content: '';
+	background-color: $SecondaryColour;
+	width: 22%;
+  height: 2px;
+  position: absolute;
+  left: 24px;
+  top: 100%;
 }
 
 p {
@@ -37,7 +48,7 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
-	padding: 4%;
+	padding: 8% 6%;
 }
 
 .wrapper {
@@ -52,11 +63,12 @@ p {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	// background-color: yellow;
 }
 
 .section {
-	padding: 7% 0;
-	// background-image: url(../../images/pineapple.jpg);
+	padding: 2% 0;
+	// background-image: url(../../images/keyboard.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

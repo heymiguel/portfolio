@@ -1,5 +1,19 @@
 
 
+.skillsRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: lime;
+}
+
+.topRow {
+	padding: 0 0 4% 0;
+}
+
+.row {
+	padding: 4% 0;
+}
 
 ul {
 	color: $PrimaryColour;
@@ -8,10 +22,11 @@ ul {
 
 li {
 	color: $PrimaryColour;
-	line-height: 27px;
+	line-height: 22px;
 }
 
 .devicon {
-	font-size: 110px;
+	margin: 2% 5%;
+	font-size: 90px;
 	color: $PrimaryColour;
 }
