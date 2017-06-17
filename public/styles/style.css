@@ -362,6 +362,9 @@ figcaption {
     display: block;
     margin: 2% auto; }
 
+.projectInfo {
+  margin-top: 4%; }
+
 .contactForm {
   width: 100%; }
 
