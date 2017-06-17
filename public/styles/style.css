@@ -212,6 +212,9 @@ a {
   color: white;
   text-decoration: none; }
 
+a:hover {
+  color: #EC116E; }
+
 .social {
   width: 15%;
   color: white;
@@ -221,14 +224,26 @@ a {
   font-size: 20px;
   margin: 0 5px; }
 
+.aboutDetails {
+  width: 55%; }
+
+.aboutFeature {
+  width: 45%; }
+
+.aboutDetails {
+  padding: 6% 0; }
+
+.aboutText {
+  padding: 8% 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400; }
+
 .detailsContainer {
   width: 34%; }
 
 .detailsBox {
   margin: 0; }
-
-.aboutDetails {
-  padding: 8% 6%; }
 
 .detailsContact {
   padding-top: 5%;
@@ -267,7 +282,27 @@ a {
 .feature img {
   width: 100%; }
 
-.skillsRow {
+.toolsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.toolsfeature {
+  width: 95%;
+  background-color: white;
+  margin-top: 5%;
+  padding: 4%; }
+
+.toolsRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,10 +314,7 @@ a {
           justify-content: space-between; }
 
 .topRow {
-  padding: 0 0 4% 0; }
-
-.row {
-  padding: 4% 0; }
+  padding-bottom: 5%; }
 
 ul {
   color: white; }
@@ -295,6 +327,15 @@ li {
   margin: 2% 5%;
   font-size: 90px;
   color: #1a0329; }
+
+figure {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center; }
+
+figcaption {
+  font-weight: 400; }
 
 .contactForm {
   width: 100%; }
@@ -357,7 +398,7 @@ h2 {
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
-  padding: 6%;
+  padding: 6% 0;
   position: relative;
   z-index: 1; }
 
@@ -367,7 +408,7 @@ h2:after {
   width: 22%;
   height: 2px;
   position: absolute;
-  left: 24px;
+  left: 0px;
   top: 100%; }
 
 h3 {
@@ -389,7 +430,7 @@ p {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  font-weight: 100; }
+  font-weight: 400; }
 
 .wrapper {
   width: 1140px;
@@ -417,6 +458,9 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.sectionTitle {
+  width: 100%; }
 
 .home {
   height: 100vh;

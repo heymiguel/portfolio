@@ -1,0 +1,51 @@
+
+
+.toolsContainer {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.toolsfeature {
+	width: 95%;
+	background-color: white;
+	margin-top: 5%;
+	padding: 4%;
+}
+
+.toolsRow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.topRow {
+	padding-bottom: 5%;
+}
+
+ul {
+	color: $PrimaryColour;
+}
+
+li {
+	color: $PrimaryColour;
+	line-height: 22px;
+}
+
+.devicon {
+	margin: 2% 5%;
+	font-size: 90px;
+	color: rgb(26, 3, 41);
+}
+
+figure {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+}
+
+figcaption {
+	font-weight: 400; 
+}
