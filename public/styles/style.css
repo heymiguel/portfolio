@@ -395,7 +395,7 @@ figcaption {
 
 .formInput {
   width: 100%;
-  border-bottom: 2px solid #e63950; }
+  border-bottom: 3px solid #e63950; }
 
 input, textarea {
   width: 100%;
@@ -418,7 +418,7 @@ textarea {
   padding: 2% 5%; }
 
 .relocation {
-  margin-top: 1%; }
+  margin-top: 3%; }
 
 body {
   background-color: #1a0329; }
