@@ -337,6 +337,31 @@ figure {
 figcaption {
   font-weight: 400; }
 
+.projectsFeature {
+  width: 100%;
+  margin-top: 5%;
+  padding: 1% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.projContainer {
+  width: 30%; }
+
+.projImage {
+  background-color: white;
+  padding: 6%; }
+  .projImage img {
+    width: 100%;
+    display: block;
+    margin: 2% auto; }
+
 .contactForm {
   width: 100%; }
 
