@@ -61,7 +61,12 @@ h3:after {
   top: 100%;
 }
 
-p {
+h4 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p, h4 {
 	color: $PrimaryColour;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;

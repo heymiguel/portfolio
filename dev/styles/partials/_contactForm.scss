@@ -14,7 +14,7 @@
 
 .formInput {
 	width: 100%;
-	border-bottom: 2px solid #e63950;
+	border-bottom: 3px solid #e63950;
 }
 
 input, textarea {
@@ -39,4 +39,8 @@ textarea {
   border: 2px solid #e63950;
   margin: 4% 0;
   padding: 2% 5%;
+}
+
+.relocation {
+	margin-top: 3%;
 }
